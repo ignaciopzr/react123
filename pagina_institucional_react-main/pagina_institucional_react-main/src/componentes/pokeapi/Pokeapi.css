@@ -1,0 +1,141 @@
+/* Estilos para el formulario */
+.cabecera {
+    display: flex;
+    align-items: center;
+  }
+
+  .imagen-cabecera {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 30px; 
+    margin-left: 30px; 
+    align-items: center;
+  }
+
+.contenedor-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  .contenedor-form h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+    
+  }
+  .form-group img{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+
+  }
+  .form-group label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .form-group input {
+    font-size: 1.2rem;
+    width: 350px;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+    background-color: rgb(217,104,119) ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .form-group button:hover {
+    background-color: #f44336;
+  }
+  
+  /* Estilos para los resultados */
+  .contenedor-resultado {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+  }
+  
+  .contenedor-resultado.activo {
+    display: block;
+    max-width: 500px;
+  }
+  
+  .contenedor-resultado h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  .contenedor-resultado img {
+    max-width: 200px;
+    margin-bottom: 20px;
+    border: solid 10px;
+    border-radius: 6px;
+    border-color: rgb(217,104,119);
+   
+  }
+  
+  .tabla-resultado {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .tabla-resultado th {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .tabla-resultado td {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }

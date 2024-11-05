@@ -1,0 +1,201 @@
+
+
+/**inicia para el segundo footer con las paginas.gov*/
+.footergov {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60px;
+    background: #c6c6c4;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/**finaliza para el segundo footer con las paginas.gov*/
+
+/****estilos para el footer********/
+/***Relaizado por: Jose Gonzalez**/
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-total {
+    bottom: 0;
+    margin-top: auto;
+
+}
+
+.Footer {
+    background: #dddddd;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 10px 10px;
+    margin-top: 4px;
+}
+
+.footer-total #footer-izq,
+.footer-total #footer-med,
+.footer-total #footer-der {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer Izquierda */
+
+.footer-total #footer-izq {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-total h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-total h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-total #footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-total #footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-total #footer-nombre-inst {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Medio */
+
+.footer-total #footer-med {
+    width: 30%;
+}
+
+.footer-total .footer-med i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-total #footer-med i#fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-total #footer-med p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-total #footer-med p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed #footer-med p a {
+    color: lightseagreen;
+    text-decoration: none;
+    
+}
+
+.footer-total #footer-links a:before {
+    content: " | ";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+    
+}
+
+.footer-total .footer-links .link-1:before {
+    content: none;
+    
+}
+
+.footer-h4{
+    color: lightseagreen;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    font-style: initial;
+
+}
+/* Footer derecha */
+
+.footer-total #footer-der {
+    width: 30%;
+}
+
+.footer-total #footer-lema-inst {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-lema-inst span {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-general .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-general .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,95 @@
+#logo {
+    width: 115px;
+    height: 115px;
+    display: inline-flex;
+    position: relative;
+    justify-content: left;
+    left: -80px;
+    align-items: center;
+  }
+#nav-header{
+    /*margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+    background-color: #dddddd;
+    position: relative;
+    height: 120px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+}
+
+#header-line {
+    --display: block;
+    position: unset;
+    cursor: pointer;
+    color: black;
+    padding: 8px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    
+}
+
+#header-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #20b2aa;
+    transition: width 0.5s;
+}
+
+#header-line:hover::before {
+    width: 100%;
+}
+
+#header ul {
+    list-style: none;
+}
+
+#menu li {
+    position: relative;
+    display: inline-block;
+}
+
+#menu li a {
+    display: block;
+    padding: 5px px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#submenu {
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    background-color: #c6c6c6;
+
+}
+
+#submenu li a {
+    display: block;
+    padding: 12px;
+}
+
+#menu li:hover #submenu {
+    display: block;
+}
+
+ul #submenu li a #header-line {
+    display: block;
+    padding: 10px;
+    background-color: #c6c6c6;
+}

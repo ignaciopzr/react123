@@ -1,0 +1,74 @@
+/*Estilos Conversor de Medidas
+Editado by Edison Pineda*/
+.contenedor-medidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 10px;
+    margin: 2px;
+}
+
+#distancia-input {
+    width: 50%;
+    height: 30px;
+    margin: 2px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+#origen,
+#destino {
+    width: 20%;
+    color: #3ea19c;
+    height: 30px;
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+
+ p {
+    padding: 4px;
+    background-color: #ddd;
+    font-weight: bold;
+    color: #20b2aa;
+    text-align: center;
+}
+
+#boton-convertir {
+    background: #20b2aa;
+    width: 130px;
+    height: 40px;
+    line-height: 2px;
+    padding: 0;
+    border: 1px;
+    text-decoration: solid;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#boton-convertir:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(3px);
+}
+
+.label-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    margin: 0px 10px;
+    color: #20b2aa;
+    font-weight: bold;
+    font-size: 18px;
+}
